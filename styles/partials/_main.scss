@@ -1,0 +1,272 @@
+.mainBody {
+    margin: 5% 0;
+    padding: 1% 0;
+    background: rgba(152, 156, 139, .5);
+}
+
+.mainBodySections{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleMainBody {
+    text-align: center;
+}
+
+.mainBodyFirstTitle {
+    font-size:2.5rem;
+    margin-bottom: 0;
+}
+
+.mainBodyInstructions{
+    margin-bottom: 3%;
+    margin-top: 0;
+    font-size: .9rem;
+}
+
+.main-carousel {
+    width: 53%;
+}
+
+.eachPlace {
+    width: 100%;
+    img{
+        width:40%;
+        height: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+    h2 {
+        text-align: center;
+        font-size: 1.4rem;
+        padding: 0 3%;
+    }
+}
+
+.shortdescriptionText {
+    font-size: 1rem;
+    padding: 0 3%;
+    margin-bottom: 6%;
+}
+
+.readMore{
+    border: 1px solid #003eff;
+    background: #007fff;
+    display: block;
+    width: 29%;
+    text-align: center;
+    padding: 2% 0 1% 0;
+    border-radius: 10px;
+}
+
+.ui-widget-content a {
+    color: white;
+}
+
+.readMore:hover,
+.searchBtn:hover,
+.backList:hover {
+    color: #007fff;
+    background: rgba(241, 240, 240, 0.582);
+    border: 1px solid #007fff;
+}
+
+.notLooking {
+    font-size: 0.9rem;
+}
+
+.largeInterestBox {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.largeDescription {
+    width: 100%;
+    margin-top: 10%;
+    border: 1px solid #757575;
+    // img{
+    //     width: 70%;
+    //     display: block;
+    //     margin: 0 auto;
+    // }
+
+    h2 {
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+}
+
+.imgGrid {
+    float: left;
+    width: 50%;
+    img {
+        width: 93%;
+        max-height: 350px;
+        max-width: 300px;
+        display: block;
+        margin: 10% auto 18% auto;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px; 
+    }
+}
+
+.instaImgGrid{
+    border: 1px solid black;
+    margin: 9% auto 0 auto;
+    width: 59%;
+    transform: rotate(-2deg);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+}
+
+#type {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.ratingTitle{
+    margin-top: 0;
+}
+
+.ratingGrid {
+    display: flex;
+}
+
+.fa-star {
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.fa-star,
+.fa-map-marker,
+.fa-laptop {
+    color:#007fff;
+}
+
+.googleAndLocation {
+    display:flex;
+}
+
+.goodleMapLink,
+.wikiPage {
+    color:black;
+}
+
+.locationGrid {
+    width: 50%;
+}
+
+.goodleMapGrid{
+    margin-top: 2%;
+}
+
+.contactGrid {
+    width: 50%;
+}
+
+.fa-map-marker {
+    font-size: 1.4rem;
+    margin-right: 1%;
+}
+
+.detailGrid p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.rating {
+    font-size: 1.4rem;
+}
+
+.longitudeAmount,
+.latitudeAmount {
+    font-size: 1.1rem;
+}
+
+.fa-laptop {
+    margin-left: 1%;
+}
+
+.largeDescription {
+    overflow-y: auto;
+    height: 520px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+    padding: 0 4.5%;
+}
+
+.descriptionText {
+    font-size: 1.2rem;
+}
+
+.navBtnGrid {
+    display:flex;
+    margin-top: 2%;
+}
+
+.backList {
+    border: 1px solid #003eff;
+    background: #007fff;
+    border-radius: 10px;
+    padding: 1% 5%;
+}
+.backListGrid {
+    width:40%;
+}
+
+.searchGrid {
+    width: 40%;
+}
+
+.searchBtn {
+    border: 1px solid #003eff;
+    background: #007fff;
+    padding: 1% 8%;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .largeDescription {
+        width: 100%;
+    }
+}
+
+@media (max-width: 557px) {
+    .searchGrid {
+        width: 60%;
+    }
+}
+
+@media (max-width: 438px) {
+    .backListGrid {
+        width: 51%;
+    }
+}
+
+@media (max-width: 407px) {
+    .searchBtn {
+        padding: 1% 4%;
+    }
+}
+
+@media (max-width: 378px) {
+   .navBtnGrid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .backListGrid {
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    .backList {
+        padding: 1% 8%;
+    }
+
+    .searchGrid {
+        width: 100%;
+        margin-top: 6%;
+    }
+}
+
+@media (max-width: 320px) {
+
+}

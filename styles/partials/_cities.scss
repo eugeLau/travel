@@ -1,0 +1,45 @@
+.citiesList {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 0;
+        width: 51%;
+    li {
+        list-style: none;
+        margin: 3.5% 3%;
+        text-align: center;
+    }
+
+    input {
+        display: none;
+
+    }
+
+    label {
+        padding: 22% 0;
+        font-family: 'Sorts Mill Goudy', serif;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    label:hover {
+        color: #007fff;
+    }
+
+}
+
+@media (max-width: 767px) {
+    label:hover {
+        color: black;
+    }
+}
+
+@media (max-width: 480px) {
+    .citiesList{
+        display: none;
+    }
+
+    .topCitiesTitle {
+        display: none;
+    }
+}

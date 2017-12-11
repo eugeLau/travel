@@ -1,0 +1,71 @@
+header {
+    background: linear-gradient(to bottom, transparent, rgba(252, 252, 252, 1)), url(../images/plane2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+
+    input{
+        font-family: 'Sorts Mill Goudy', serif;
+    }
+}
+#city {
+    padding: 1% 23% 1% 2%;
+    border: 1px solid #003eff;
+    border-radius: 10px;
+}
+
+#go {
+    padding: 1% 5%;
+    margin-left: 1%;
+    border: 1px solid #003eff;
+    background: #007fff;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Sorts Mill Goudy', serif;
+    color: white;
+}
+
+#go:hover {
+    color: #007fff;
+    background: rgba(241, 240, 240, 0.582);
+    border: 1px solid #007fff;
+}
+
+.rightSide {
+    flex-grow: 2;
+}
+
+.main {
+    flex-grow: 3;
+    text-align: center;
+}
+.leftSide {
+    flex-grow: 2;
+}
+
+.main,
+.leftSide {
+    padding: 8% 1%;
+}
+
+.topCitiesTitle {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 386px) {
+    #go {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 357px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+}
+
+
+

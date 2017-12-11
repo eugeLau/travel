@@ -1,0 +1,171 @@
+#mapid {
+    width: 514px;
+    height: 480px;
+    padding: 0;
+}
+
+@media (max-width: 1047px) {
+    #mapid {
+        width: 501px;
+    }
+}
+
+@media (max-width: 986px) {
+    #mapid {
+        width: 501px;
+    }
+}
+@media (max-width: 930px) {
+    #mapid {
+        width: 420px;
+        height: 462px;
+    }
+}
+
+
+@media (max-width: 872px) {
+    #mapid {
+        width: 381px;
+    }
+}
+
+@media (max-width: 817px) {
+    #mapid {
+        width: 354px;
+        height: 453px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mainBodySections {
+        flex-direction: column;
+    }
+
+    #interestBox {
+        width: 100%;
+    }
+
+    .eachPlace img {
+        width: 45%;
+    }
+
+    #mapid {
+        width: 682px;
+    }
+}
+
+@media (max-width: 727px) {
+    #mapid {
+        width: 646px;
+    }
+}
+
+@media (max-width: 687px) {
+    #mapid {
+        width: 616px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 655px) {
+    #mapid {
+        width: 588px;
+    }
+    .eachPlace img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 626px) {
+    #mapid {
+        width: 558px;
+    }
+}
+
+@media (max-width: 597px) {
+    #mapid {
+        width: 533px;
+    }
+}
+@media (max-width: 566px) {
+    #mapid {
+        width: 512px;
+        height: 380px;
+    }
+    .eachPlace img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 543px) {
+    #mapid {
+        width: 489px;
+    }
+}
+
+@media (max-width: 512px) {
+    #mapid {
+        width: 465px;
+    }
+}
+@media (max-width: 496px) {
+    #mapid {
+        width: 439px;
+    }
+}
+
+@media (max-width: 467px) {
+    #mapid {
+        width: 418px;
+    }
+}
+
+@media (max-width: 447px) {
+    #mapid {
+        width: 398px;
+    }
+}
+
+@media (max-width: 425px) {
+    #mapid {
+        width: 381px;
+    }
+}
+
+@media (max-width: 409px) {
+    #mapid {
+        width: 366px;
+        height: 366px;
+    }
+}
+
+@media (max-width: 393px) {
+    #mapid {
+        width: 346px;
+    }
+}
+
+@media (max-width: 371px) {
+    #mapid {
+        width: 331px;
+    }
+}
+
+@media (max-width: 351px) {
+    #mapid {
+        width: 313px;
+        height: 330px;
+    }
+}
+
+@media (max-width: 337px) {
+    #mapid {
+        width: 297px;
+    }
+}
+
+@media (max-width: 320px) {
+    #mapid {
+        width: 291px;
+    }
+}
