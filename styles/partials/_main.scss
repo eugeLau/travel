@@ -4,6 +4,12 @@
     background: rgba(152, 156, 139, .5);
 }
 
+.main {
+    p {
+        font-size: 0.9rem;
+    }
+}
+
 .mainBodySections{
     display: flex;
     justify-content: space-between;
@@ -57,6 +63,10 @@
     text-align: center;
     padding: 2% 0 1% 0;
     border-radius: 10px;
+}
+
+#readMoreSection {
+    margin-bottom: 5%;
 }
 
 .ui-widget-content a {

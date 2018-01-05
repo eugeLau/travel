@@ -16,10 +16,10 @@
 <body>
     <header id="top">
         <div class="rightSide">
-            <a class="twitter-share-button" href="https://twitter.com/share" data-size="large" data-text="custom share text" data-url="https://dev.twitter.com/web/tweet-button"
+            <!-- <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Check%20this%20site%20out%20and%20see%20what%20places%20to%20visit%20http://eugenialau.com/travel/" data-size="large data-url="https://dev.twitter.com/web/tweet-button"
                 data-hashtags="example,demo" data-via="twitterdev" data-related="twitterapi,twitter">
-                Tweet
-            </a>
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a> -->
         </div>
         <div class="main">
             <h1>Where would you like to travel?</h1>
@@ -39,62 +39,25 @@
         <p class="topCitiesTitle">Top Searched Cities</p>
         <ul class="citiesList wrapper">
             <li>
-                <label for="bangkok">Bangkok,</br> Thailand</label>
+                <label for="bangkok" data-href="#mainBody">Bangkok,</br> Thailand</label>
                 <input type="radio" name="cities" id="bangkok" value="bangkok">
             </li>
             <li>
-                <label for="capeTown">Cape Town,</br> South Africa</label>
+                <label for="capeTown" data-href="#mainBody">Cape Town,</br> South Africa</label>
                 <input type="radio" name="cities" id="capeTown" value="cape town">
-                </a>
             </li>
-            <!-- <li>
-                <label for="berlin">Berlin,</br> Germany</label>
-                <input type="radio" name="cities" id="berlin" value="berlin">
-            </li> -->
             <li>
-                <label for="barcelona">Barcelona,</br> Spain</label>
+                <label for="barcelona" data-href="#mainBody">Barcelona,</br> Spain</label>
                 <input type="radio" name="cities" id="barcelona" value="barcelona">
             </li>
             <li>
-                <label for="london">London,</br> England</label>
+                <label for="london" data-href="#mainBody">London,</br> England</label>
                 <input type="radio" name="cities" id="london" value="london">
             </li>
             <li>
-                <label for="paris">Paris,</br> France</label>
+                <label for="paris" data-href="#mainBody">Paris,</br> France</label>
                 <input type="radio" name="cities" id="paris" value="paris">
             </li>
-            <!-- <li>
-                <label for="paris">New Delhi,</br> India</label>
-                <input type="radio" name="cities" id="paris" value="new delhi">
-            </li> -->
-            <!-- <li>
-                <label for="paris">Chiang Mai,</br> Thailand</label>
-                <input type="radio" name="cities" id="paris" value="chiang mai">
-            </li>
-            <li>
-                <label for="paris">Reykjavik,</br> Iceland</label>
-                <input type="radio" name="cities" id="paris" value="reykjavik">
-            </li> -->
-            <!-- <li>
-                <label for="paris">Sydney,</br> Australia</label>
-                <input type="radio" name="cities" id="paris" value="Sydney">
-            </li> -->
-            <!-- <li>
-                <label for="paris">Rome,</br> Italy</label>
-                <input type="radio" name="cities" id="paris" value="rome">
-            </li> -->
-            <!-- <li>
-                <label for="paris">Harare,</br> Zimbabwe</label>
-                <input type="radio" name="cities" id="paris" value="Harare">
-            </li> -->
-            <!-- <li>
-                <label for="paris">Sydney,</br> Australia</label>
-                <input type="radio" name="cities" id="paris" value="Sydney">
-            </li> -->
-            <!-- <li>
-                <label for="paris">Seoul,</br> South Korea</label>
-                <input type="radio" name="cities" id="paris" value="Seoul">
-            </li> -->
         </ul>
     </section>
     <div class="mainBody" id="mainBody">
@@ -118,12 +81,8 @@
     <div class="wrapper" id="readMoreSection">
         <div id="largeInterestBox">
             <!-- individual content -->
-       </div>
+        </div>
     </div>
-   <!-- <div class="buttons">
-       <a href="#top" class="btn">Search Again</a>
-       <a href="#interestBox" class="btn">Read Less</a>
-   </div> -->
 
     <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
     <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="

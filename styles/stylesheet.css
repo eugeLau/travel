@@ -267,6 +267,12 @@ header {
   header input {
     font-family: 'Sorts Mill Goudy', serif; }
 
+.twitter-share-button {
+  color: #003eff;
+  padding: 10%;
+  display: block;
+  font-size: 2rem; }
+
 #city {
   padding: 1% 23% 1% 2%;
   border: 1px solid #003eff;
@@ -380,7 +386,7 @@ a {
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 0;
-  width: 51%; }
+  width: 54%; }
   .citiesList li {
     list-style: none;
     margin: 3.5% 3%;
@@ -409,6 +415,9 @@ a {
   margin: 5% 0;
   padding: 1% 0;
   background: rgba(152, 156, 139, 0.5); }
+
+.main p {
+  font-size: 0.9rem; }
 
 .mainBodySections {
   display: -webkit-box;
@@ -458,6 +467,9 @@ a {
   text-align: center;
   padding: 2% 0 1% 0;
   border-radius: 10px; }
+
+#readMoreSection {
+  margin-bottom: 5%; }
 
 .ui-widget-content a {
   color: white; }

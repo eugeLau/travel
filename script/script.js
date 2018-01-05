@@ -1,14 +1,3 @@
-// amadeus keys
-// ---: p4mzmkKsUKevaimPkk2dorAP7C1TaqEF
-//Max:Rllx1kmxgu1rnJSdfriTSwTGHktdI4GA
-
-
-//---: y6aUuVFNBWBA7FJzGGYGtqKFywzLROoD
-//Hiram: jAjPG5I9y505x1kIbx9gcPTgFDKJD29R
-
-//mapbox: pk.eyJ1IjoibGltZW9yYW5nZSIsImEiOiJjamExemsxMTUwam1qMnFsZnh1OGs0NHd4In0.jIHVzy4DBGEC2BZK3ROgjw
-
-
 const travelApp = {};
 
 travelApp.layerGroup = null;
@@ -22,7 +11,7 @@ travelApp.getInterest = function (query) {
             reqUrl: `https://api.sandbox.amadeus.com/v1.2/points-of-interest/yapq-search-text`,
             params: {
                 city_name: query,
-                apikey: "y6aUuVFNBWBA7FJzGGYGtqKFywzLROoD",
+                apikey: "fma82wXQhGiqg3UGbSHNeiypaPyr6ZUl",
             },
             proxyHeaders: {
                 'Some-Header': 'goes here'
@@ -225,7 +214,7 @@ travelApp.events = function() {
         const searchCity = $(this).val();
         // console.log(searchCity);
         travelApp.getInterest(searchCity);
-        $('form').smoothScroll();
+        // $('form').smoothScroll();
     });
 
     $('readMore').on('click', function(e) {
@@ -250,8 +239,8 @@ travelApp.init = function() {
     travelApp.events();
 
     $('html, body').animate({
-            scrollTop: $($(this).data('href')).offset().top
-        }, 800);
+        scrollTop: $($(this).data('href')).offset().top
+    }, 800);
 }
 
 //document ready
