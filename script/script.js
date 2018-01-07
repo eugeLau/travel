@@ -3,6 +3,7 @@ const travelApp = {};
 travelApp.layerGroup = null;
 
 travelApp.getInterest = function (query) {
+    $('#loader').show();
     $.ajax({
         url: 'http://proxy.hackeryou.com',
         dataType: 'json',
@@ -18,7 +19,7 @@ travelApp.getInterest = function (query) {
             },
             xmlToJSON: false,
             useCache: false
-        }
+        },
     }).then(function (result) {
         // console.log(result);
 
