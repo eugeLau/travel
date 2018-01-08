@@ -548,6 +548,10 @@ a {
 .wikiPage {
   color: black; }
 
+.goodleMapLink:hover,
+.wikiPage:hover {
+  color: #007fff; }
+
 .locationGrid {
   width: 50%; }
 
@@ -620,6 +624,12 @@ a {
 @media (max-width: 438px) {
   .backListGrid {
     width: 51%; } }
+
+@media (max-width: 480px) {
+  .imgGrid {
+    width: 100%; }
+  .instaImgGrid {
+    margin-bottom: 9%; } }
 
 @media (max-width: 407px) {
   .searchBtn {

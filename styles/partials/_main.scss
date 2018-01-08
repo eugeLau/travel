@@ -160,6 +160,11 @@
     color:black;
 }
 
+.goodleMapLink:hover,
+.wikiPage:hover {
+    color: #007fff;
+}
+
 .locationGrid {
     width: 50%;
 }
@@ -250,6 +255,16 @@
     }
 }
 
+@media (max-width: 480px) {
+    .imgGrid {
+        width: 100%;
+    }
+
+    .instaImgGrid {
+        margin-bottom: 9%;
+    }
+}
+
 @media (max-width: 407px) {
     .searchBtn {
         padding: 1% 4%;
@@ -275,8 +290,4 @@
         width: 100%;
         margin-top: 6%;
     }
-}
-
-@media (max-width: 320px) {
-
 }

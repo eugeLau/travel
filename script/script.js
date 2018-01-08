@@ -33,7 +33,7 @@ travelApp.displayInterest = function(interestArray){
     // console.log(interestArray);
 
     //wait till all promise has been returned 
-    console.log(interestArray);
+    // console.log(interestArray);
     $.when(...interestArray)
         .then((...finish) =>{
             //if travelApp.layerGroup is not equal null then clear all previous layers
@@ -181,21 +181,6 @@ travelApp.displayInterest = function(interestArray){
             travelApp.layerGroup = L.layerGroup(mark);
             travelApp.layerGroup.addTo(travelApp.mymap);
             // console.log(mark);
-
-            // var type = document.getElementById('type');
-
-            // var typewriter = new Typewriter(type, {
-            //     loop: true
-            // });
-
-            // typewriter.typeString('Hello World!')
-            //     .pauseFor(2500)
-            //     .deleteAll()
-            //     .typeString('Strings can be removed')
-            //     .pauseFor(2500)
-            //     .deleteChars(7)
-            //     .typeString('altered!')
-            //     .start();
     });  
 }; 
 
@@ -238,10 +223,6 @@ travelApp.init = function() {
     travelApp.getInterest('berlin');
     // console.log('ready');
     travelApp.events();
-
-    $('html, body').animate({
-        scrollTop: $($(this).data('href')).offset().top
-    }, 800);
 }
 
 //document ready
